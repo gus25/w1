@@ -136,12 +136,12 @@ background:red;
  padding: 0;
  }
 
- li {
+ li1 {
  display: inline;
 	 text-align:center;
  } 
   
-li a {
+li1 a1 {
  font-family: Arial;
  font-size: 14px;
  text-decoration: none;
@@ -152,7 +152,39 @@ li a {
  color: #fff;
  }	
 	
-	
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}	
 	
 </style>  
 
@@ -165,7 +197,7 @@ li a {
 <div><input id="nombre-input" type="text" /></div>
 </div> <br />
 
-<div class = "menu">	
+
 
 <nav><ul>	
  <li><a href="#">0</a></li>
@@ -205,7 +237,7 @@ li a {
  <li><a href="#">34</a></li>
  <li><a href="#">35</a></li>
 </ul></nav>
-</div>	
+	
 
 <div class="titulo_grupo" id="titulogrupo1"></div>
 
