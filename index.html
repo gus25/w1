@@ -175,11 +175,11 @@ nav li:hover{
       color:#000;
       }
             
-nav li{
+nav li>ul{
       display:none;
       }
 
-nav:hover{
+nav li:hover>ul{
       display:block;
       position:absolute;
       top:30px;
@@ -199,8 +199,10 @@ nav:hover{
 
 
 <div class="menu">
-<nav>	
- <li><a href="#">0</a></li>
+<nav><ul>
+ <li><a href="#">grupos</a>
+ <ul>
+	<li><a href="#">0</a></li>
  <li><a href="#">1</a></li>
  <li><a href="#">2</a></li>
  <li><a href="#">3</a></li>
@@ -236,7 +238,9 @@ nav:hover{
  <li><a href="#">33</a></li>
  <li><a href="#">34</a></li>
  <li><a href="#">35</a></li>
-</nav>
+
+	 
+	</ul> </li></ul> </nav>
 	</div>
 
 <div class="titulo_grupo" id="titulogrupo1"></div>
