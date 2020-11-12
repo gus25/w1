@@ -103,15 +103,28 @@ background:red;
   }
   
 /*ccs para el menu*/	
+
+	
+	
+  .menu {
+
+	display: grid;
+	grid-template-columns: 80px 10px 10px 10px 10px;
+	
+    grid-template-rows: 10px;
+  	background: white;
+
+  } 
+	
  #button {
  padding: 0;
  }
 
-#button li {
+ #li {
  display: inline;
  } 
   
-#button li a {
+#li a {
  font-family: Arial;
  font-size: 11px;
  text-decoration: none;
@@ -122,15 +135,18 @@ background:red;
  }	
 	
 	
-</style>  
 	
-<ul id=”button”>
- <li><a href=”#”>Inicio</a></li>
- <li><a href=”#”>1</a></li>
- <li><a href=”#”>2</a></li>
- <li><a href=”#”>3</a></li>
- <li><a href=”#”>4</a></li>
-</ul>	
+</style>  
+
+<div id = "menu">	
+
+ <div><li><a href="#">Inicio</a></li></div>
+ <div><li><a href="#">1</a></li></div>
+ <div><li><a href="#">2</a></li></div>
+ <div><li><a href="#">3</a></li></div>
+ <div><li><a href="#">4</a></li></div>
+</div>	
+	
 	
 	
 
