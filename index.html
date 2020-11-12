@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>w1</title>
+    <script src="js\jquery-3.2.1.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<style>
+   
+ 
+  
+  .texto {
+  
+  	padding: 3px;
+  }
+  
+
+  
+
+ .titulo_grupo {
+  
+	display: grid;
+	grid-template-columns: 160px 250px;
+
+	grid-gap:3px;
+  	
+  	border:2px solid grey;
+
+   margin: auto;
+  	background: gray;
+  	padding: 2px;
+  
+
+}  
+  
+ 
+  .titulo_grupo > div {
+   
+   background: white;
+   padding: 3px;
+
+   
+  }
+  
+  .nombre {
+
+	display: grid;
+	grid-template-columns: 80px 160px;
+	
+    grid-template-rows: 30px;
+    
+  	
+ 
+  	background: white;
+  	
+    
+    
+  } 
+  
+  .nombre > div {
+  
+  border:2px solid grey;
+    padding: 2px;
+  }
+  
+  #nombre-input {
+  outline:0;
+  border: 0;
+    font-size: 16px;
+    color:#5DADE2;
+    width : 150px;
+  
+  }
+  
+    .imagen {
+
+
+background:red;
+  }
+/*  
+  #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10, 
+  #img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,
+  #img21,#img22,#img23,#img24,#img25,#img26
+*/  
+  .imagen img
+  {
+
+	padding: 0px;
+	border:0;
+
+  }
+  
+  
+  
+</style>  
+
+<div class="nombre" id="nombre">
+<div>Nombre:</div>
+
+<div><input id="nombre-input" type="text" /></div>
+</div><br />
+
+
+<div class="titulo_grupo" id="titulogrupo1"></div>
+
+
+
+
+<script>
+  
+  
+let div1 = document.getElementById('titulogrupo1');
+
+ 
+for (var k = 1 ; k <= 35; k++) {
+
+	div1.innerHTML += 
+    '<div class="imagen"><img alt="" id="img'+k+'" width="100%" /></div>'+
+	'<div class="nombregrupo"><a id="a'+k+'"> </a></div>';  
+
+
+ }   
+  
+  
+var input = document.getElementById("nombre-input");
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+ 
+       var data = document.getElementById("nombre-input").value;
+ 		localStorage.setItem("minombre", data);
+      
+      //alert ("holasss");
+    }
+});
+  
+document.getElementById("nombre-input").value = localStorage.getItem("minombre");  
+  
+  
+document.getElementById("img1").src="https://1.bp.blogspot.com/-hi25_pw21n0/X6xppPsMTvI/AAAAAAAAATU/pxodGUrYeEQ0HfcFQtLkI0ahhZpxTMZcgCLcBGAsYHQ/s200/01.png";  
+document.getElementById("a1").href="https://gruposvideos1.blogspot.com/p/g1.html";
+document.getElementById("a1").text= "(g1) Diagramas y Circuitos Electrónicos";  
+ 
+document.getElementById("img2").src="https://1.bp.blogspot.com/-MVDLd1yrfXw/X6xppEkur9I/AAAAAAAAATY/Wwgxcs6REsQDxlTbIHhCghk0F-hb5-CgQCLcBGAsYHQ/s200/02.png"
+document.getElementById("a2").href="https://gruposvideos1.blogspot.com/p/g2.html";
+document.getElementById("a2").text= "(g2) El Mundo de la Electrónica";   
+   
+document.getElementById("img3").src= "https://1.bp.blogspot.com/-nR0qNqmS9aI/X6xppLOykzI/AAAAAAAAATc/-PAW27TmLqUW4eYv-D6ETobL6Dr9KkhpgCLcBGAsYHQ/s200/03.png";
+document.getElementById("a3").href="https://gruposvideos1.blogspot.com/p/g3.html";
+document.getElementById("a3").text= "(g3) Electricidad Automotriz"; 
+
+document.getElementById("img4").src= "https://1.bp.blogspot.com/-ic1m6Rq6XDk/X6xppnnjrQI/AAAAAAAAATk/l4qgBayxxkogxMJO1Va6hQ0SF0oE7Y_uQCLcBGAsYHQ/s200/04.png";
+document.getElementById("a4").href="https://gruposvideos1.blogspot.com/p/g4.html";
+document.getElementById("a4").text= "(g4) Saber Electronica";  
+  
+document.getElementById("img5").src= "https://1.bp.blogspot.com/-jeSms2i7DUE/X6xpqArZFxI/AAAAAAAAATg/QBFGusKgg3k6ijcvnkhWcMzKMlTO88lbACLcBGAsYHQ/s200/05.png";
+document.getElementById("a5").href="https://gruposvideos1.blogspot.com/p/g5.html";
+document.getElementById("a5").text= "(g5) Aprenda Electricidad Básica Gratis";
+  
+document.getElementById("img6").src= "https://1.bp.blogspot.com/-RrMKQLAbVWc/X6xpqg_AXSI/AAAAAAAAATo/CfiM2VlJ3iItgjmYxetJhNb0qyj31fYigCLcBGAsYHQ/s200/06.png";
+document.getElementById("a6").href="https://gruposvideos1.blogspot.com/p/g6.html";
+document.getElementById("a6").text= "(g6) Diagramas y Proyectos Electrónicos";  
+  
+document.getElementById("img7").src= "https://1.bp.blogspot.com/-cWcuXpcjHGg/X6xpqtA_UlI/AAAAAAAAATw/Oq7eq9O4BY8hXJgwDXt8Ga4bJvnjOCCQACLcBGAsYHQ/s200/07.png";
+document.getElementById("a7").href="https://gruposvideos1.blogspot.com/p/g7.html";
+document.getElementById("a7").text= "(g7) EL MUNDO DE LA ELECTRÓNICA";  
+  
+document.getElementById("img8").src= "https://1.bp.blogspot.com/-DpHn4Qdp2s0/X6xpqvriOuI/AAAAAAAAATs/2i3OPV-SkFsENMwMfV9v679zAYevyNIqQCLcBGAsYHQ/s200/08.png";
+document.getElementById("a8").href="https://gruposvideos1.blogspot.com/p/g8.html";
+document.getElementById("a8").text= "(g8) Electricidad Básica"; 
+  
+document.getElementById("img9").src= "https://1.bp.blogspot.com/-Y0G_YWTYZhQ/X6xprN1FxvI/AAAAAAAAAT0/bYHbSQPEY8YneajAqR9gubFb_eLQ8TAfwCLcBGAsYHQ/s200/09.png";
+document.getElementById("a9").href="https://gruposvideos1.blogspot.com/p/g9.html";
+document.getElementById("a9").text= "(g9) Aprendiendo y enseñando electricidad";
+  
+document.getElementById("img10").src= "https://1.bp.blogspot.com/-FVTC_7KPDv8/X6xprsm9fLI/AAAAAAAAAT4/Mb8i74eteW4eCozPX512dH3DJWev2fC1QCLcBGAsYHQ/s200/10.png";
+document.getElementById("a10").href="https://gruposvideos1.blogspot.com/p/g10.html";
+document.getElementById("a10").text= "(g10) Electricidad Residencial Básica";  
+  
+document.getElementById("img11").src= "https://1.bp.blogspot.com/-NHFym8U81NY/X6xpsEag3RI/AAAAAAAAAT8/cVkOckOM7BE7_FALFc15rgFMzrlUVXDeACLcBGAsYHQ/s200/11.png";
+document.getElementById("a11").href="https://gruposvideos1.blogspot.com/p/g11.html";
+document.getElementById("a11").text= "(g11) Electricidad Residencial";  
+  
+document.getElementById("img12").src= "https://1.bp.blogspot.com/-Uc7hLtqvlhI/X6xpsjVPeVI/AAAAAAAAAUA/CFxWzlXsI2UmI0Czno9qIGINEH8qAmLKACLcBGAsYHQ/s200/12.png";
+document.getElementById("a12").href="https://gruposvideos1.blogspot.com/p/g12.html";
+document.getElementById("a12").text= "(g12) Electricidad y Electrónica Automotriz";  
+  
+document.getElementById("img13").src= "https://1.bp.blogspot.com/-A_1LVHmWIUA/X6xptMv9o8I/AAAAAAAAAUE/slPV6HuszhsYK2-RIP3GKWd70kbR4AGWgCLcBGAsYHQ/s200/13.png";
+document.getElementById("a13").href="https://gruposvideos1.blogspot.com/p/g13.html";
+document.getElementById("a13").text= "(g13) Electronica Basica";  
+
+document.getElementById("img14").src= "https://1.bp.blogspot.com/-hMsL0fgFV8w/X6xptn9DObI/AAAAAAAAAUM/Q3OHNHus7I4uZYImT1xg3CHkicZYffnNgCLcBGAsYHQ/s200/14.png";
+document.getElementById("a14").href="https://gruposvideos1.blogspot.com/p/g14.html";
+document.getElementById("a14").text= "(g14) Inventos y Curiosidades";  
+  
+document.getElementById("img15").src= "https://1.bp.blogspot.com/-QcuHTF9BDzc/X6xpuMAqNpI/AAAAAAAAAUI/VT3J6D_0ZwkQ6Rs1fc5THtNNu-CMK41lgCLcBGAsYHQ/s200/15.png";
+document.getElementById("a15").href="https://gruposvideos1.blogspot.com/p/g15.html";
+document.getElementById("a15").text= "(g15) Grupo Todo Inventos TV, el grupo de TODOS";  
+  
+document.getElementById("img16").src= "https://1.bp.blogspot.com/-q26H53C7JXQ/X6xpuuOXCqI/AAAAAAAAAUQ/wpIud6y6Cy0286dTe4yXXHiKIOoHw-vhwCLcBGAsYHQ/s200/16.png";
+document.getElementById("a16").href="https://gruposvideos1.blogspot.com/p/g16.html";
+document.getElementById("a16").text= "(g16) Reparaciones Caseras";  
+  
+document.getElementById("img17").src= "https://1.bp.blogspot.com/-s4mKFBuQv0g/X6xpulInojI/AAAAAAAAAUU/m8_7Rk3eluQJT6tn53olkVXLVtCCZQGlwCLcBGAsYHQ/s200/17.png";
+document.getElementById("a17").href="https://gruposvideos1.blogspot.com/p/g17.html";
+document.getElementById("a17").text= "(g17) Inventos Caseros con Materiales Reciclados";
+  
+document.getElementById("img18").src= "https://1.bp.blogspot.com/-DU1G5Jqw7-c/X6xpu_zJnJI/AAAAAAAAAUY/UpK95qX0tOs2OAUpk0uJxYkF1Hbl-F4nQCLcBGAsYHQ/s200/18.png";
+document.getElementById("a18").href="https://gruposvideos1.blogspot.com/p/g18.html";
+document.getElementById("a18").text= "(g18) Proyectos de Electronica";  
+  
+document.getElementById("img19").src= "https://1.bp.blogspot.com/-3B0a16Pev7Q/X6xpvIaMBpI/AAAAAAAAAUc/UO9r9ykfP-guIcTLj0y-JCQvLR258JnvgCLcBGAsYHQ/s200/19.png";
+document.getElementById("a19").href="https://gruposvideos1.blogspot.com/p/g19.html";
+document.getElementById("a19").text= "(g19) Inventos Caseros";   
+  
+document.getElementById("img20").src= "https://1.bp.blogspot.com/-BmzKJ8j-nmw/X6xpvI3M47I/AAAAAAAAAUg/ZGYODFjSQLURHoD00qwDl_opBYCZHuyWgCLcBGAsYHQ/s200/20.png";
+document.getElementById("a20").href="https://gruposvideos1.blogspot.com/p/g20.html";
+document.getElementById("a20").text= "(g20) Saber Electronica!!!";   
+  
+document.getElementById("img21").src= "https://1.bp.blogspot.com/-BtTa8NjH3TE/X6xpvJbZ2YI/AAAAAAAAAUk/ogL3mVYBt4UduVuL7uQILF_SVh4_wuD2wCLcBGAsYHQ/s200/21.png";
+document.getElementById("a21").href="https://gruposvideos1.blogspot.com/p/g21.html";
+document.getElementById("a21").text= "(g21) Reparacion de equipos electricos"; 
+  
+document.getElementById("img22").src= "https://1.bp.blogspot.com/-s76HlnR9itM/X6xpvT7CMrI/AAAAAAAAAUo/z9Pu_k7nnX49TELyMMNvIku53fwDZAW0QCLcBGAsYHQ/s200/22.png";
+document.getElementById("a22").href="https://gruposvideos1.blogspot.com/p/g22.html";
+document.getElementById("a22").text= "(g22) Instalaciones Electricas";   
+  
+document.getElementById("img23").src= "https://1.bp.blogspot.com/-5JQQa0Xpen0/X6xpvjrjUlI/AAAAAAAAAUs/FMNk7POquEoLNlaWQDxQx_ssry-dg0vowCLcBGAsYHQ/s200/23.png";
+document.getElementById("a23").href="https://gruposvideos1.blogspot.com/p/g23.html";
+document.getElementById("a23").text= "(g23) Herramientas Caseras";   
+  
+document.getElementById("img24").src= "https://1.bp.blogspot.com/-lN4Wtimj2ic/X6xpvp0M9iI/AAAAAAAAAUw/sWSlMcEpUiE2jfUmB3VyYE95NiE6lBrcgCLcBGAsYHQ/s200/24.png";
+document.getElementById("a24").href="https://gruposvideos1.blogspot.com/p/g24.html";
+document.getElementById("a24").text= "(g24) INVENTOS CASEROS Y UTILES IDEAS, compartir ideas y buscar soluciones.."; 
+  
+document.getElementById("img25").src= "https://1.bp.blogspot.com/-GX4UflUgiBs/X6xpviXUcwI/AAAAAAAAAU0/-44yaExbMqUhLDQfvaUmbuIrNLFiwIEsACLcBGAsYHQ/s200/25.png";
+document.getElementById("a25").href="https://gruposvideos1.blogspot.com/p/g25.html";
+document.getElementById("a25").text= "(g25) Tecnicos En Electricidad y Automatización";   
+  
+document.getElementById("img26").src= "https://1.bp.blogspot.com/-Beic43eiGGI/X6xpvwkUlPI/AAAAAAAAAU4/QuvxsyJU6Og-BySC_nT-tn9Jwo7Gkta6wCLcBGAsYHQ/s200/26.png";
+document.getElementById("a26").href="https://gruposvideos1.blogspot.com/p/g26.html";
+document.getElementById("a26").text= "(g26) Electricista alta y baja tensión";   
+  
+document.getElementById("img27").src= "https://1.bp.blogspot.com/-arKe7F0pjhA/X6xpwFiehOI/AAAAAAAAAU8/NBZ_PBvboO0UMSgSN-PjLIQb1ma99-XtgCLcBGAsYHQ/s200/27.png";
+document.getElementById("a27").href="https://gruposvideos1.blogspot.com/p/g27.html";
+document.getElementById("a27").text= "(g27) EXPERIMENTOS ELECTRONICOS-TRABAJOS TECNICOS Y VENTAS DE INSUMOS";  
+  
+document.getElementById("img28").src= "https://1.bp.blogspot.com/-oSD_JqcsLJc/X6xpwAb3WYI/AAAAAAAAAVA/fyNkZ8_IMyQQ6tSYvZkQ7EDYCS_4iwVSQCLcBGAsYHQ/s827/28.png";
+document.getElementById("a28").href="https://gruposvideos1.blogspot.com/p/g28.html";
+document.getElementById("a28").text= "(g28) tecnicos electronicos";  
+  
+document.getElementById("img29").src= "https://1.bp.blogspot.com/-abG0ikGyVxk/X6xpwCQfJJI/AAAAAAAAAVE/xjmFjboBrScZxDg2VlBUp2pk9GMQ7Sz2wCLcBGAsYHQ/s200/29.png";
+document.getElementById("a29").href="https://gruposvideos1.blogspot.com/p/g29.html";
+document.getElementById("a29").text= "(g29) ELECTRICIDAD";    
+  
+document.getElementById("img30").src= "https://1.bp.blogspot.com/-ElJJZkkzuZo/X6xpwt8KuvI/AAAAAAAAAVI/OqpHuMNr6bUorkrNYdRukP25GhkgtH1vQCLcBGAsYHQ/s200/30.png";
+document.getElementById("a30").href="https://gruposvideos1.blogspot.com/p/g30.html";
+document.getElementById("a30").text= "(g30) Electricidad, Electrónica y Refrigeración.";    
+  
+
+document.getElementById("img31").src= "https://1.bp.blogspot.com/-JwwUAlbNlkQ/X6yHNjMO-YI/AAAAAAAAAVw/mnnwAKBMxlwolM_AVtScuJn0S3t5YC1vQCLcBGAsYHQ/s200/31.png";
+document.getElementById("a31").href="https://gruposvideos1.blogspot.com/p/g31.html";
+document.getElementById("a31").text= "(g31) manuales de Electricidad, electrónica, informática y más"; 
+  
+  
+document.getElementById("img32").src= "https://1.bp.blogspot.com/-quHBzmUYEQ8/X6yHNhlCwRI/AAAAAAAAAV0/KTme3rQlrI4AXwpi8x_nP9GNDOKt1UjdACLcBGAsYHQ/s200/32.png";
+document.getElementById("a32").href="https://gruposvideos1.blogspot.com/p/g32.html";
+document.getElementById("a32").text= "(g32) Ingeniería Electrónica";   
+  
+  
+document.getElementById("img33").src= "https://1.bp.blogspot.com/-Bhxzy0SoY3w/X6yHNrctskI/AAAAAAAAAVs/3sa3tslLs2cxO7TCCPaLsiHVIMVrf1RSwCLcBGAsYHQ/s200/33.png";
+document.getElementById("a33").href="https://gruposvideos1.blogspot.com/p/g33.html";
+document.getElementById("a33").text= "(g33) Inventos Caseros"; 
+  
+document.getElementById("img34").src= "https://1.bp.blogspot.com/-L5ST1FCq33g/X6yHOH0cfEI/AAAAAAAAAV4/VkRynhswECAEocDY5UVohMSvNDem6U8WwCLcBGAsYHQ/s200/34.png";
+document.getElementById("a34").href="https://gruposvideos1.blogspot.com/p/g34.html";
+document.getElementById("a34").text= "(g34) Informaciones eléctricas";   
+  
+document.getElementById("img35").src= "https://1.bp.blogspot.com/-U72cmZugHaQ/X6yHO7QyEUI/AAAAAAAAAV8/XgQYpp5Ciqk6AvjIWKoe5VGUtzuxJUo4QCLcBGAsYHQ/s200/35.png";
+document.getElementById("a35").href="https://gruposvideos1.blogspot.com/p/g35.html";
+document.getElementById("a35").text= "(g35) Electronica, Diseño, Circuitos y Diagramas";  
+  
+  
+</script>
+
+
+</body>
+
