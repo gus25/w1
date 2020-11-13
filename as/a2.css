@@ -1,0 +1,94 @@
+.titulo_grupo {
+  
+	display: grid;
+	grid-template-columns: 250px 265px;
+	grid-template-rows: 100px;
+	grid-gap:3px;
+  	
+  	border:2px solid grey;
+	margin: auto;
+  	background: gray;
+  	padding: 2px;
+
+}  
+  
+  .nombregrupo {
+  background: white;
+    text-align: left;
+    font-size: 20px;
+    
+    padding:10px;
+  
+  }  
+  
+  
+.contenedor {
+	display: grid;
+	grid-template-columns: 50px 75px 345px 50px;
+	/*grid-template-rows: 50px 50px 50px 50px 50px ;*/
+	grid-gap:2px;
+  
+
+}
+  
+.contenedor {
+	width: 100%;
+	/*max-width: 1000px;*/
+	border:2px solid grey;
+	margin: auto;
+	/*font-size: 12px;*/
+	/*line-height: 50px;*/
+	text-align: justify;
+  background: gray;
+}
+
+.contenedor > di {
+	/*display: block;*/
+	/*padding: 2px;*/
+	
+	/*background: #fff;*/
+  	/*background: gray;*/
+	/*box-shadow: 2px 2px 10px rgba(0,0,0,.25);*/
+  }  
+  
+  
+  .numero {
+    
+    
+  font-size: 22px;
+       text-align:center;
+      padding-top: 10px;
+    background: #fff;
+  
+  }
+  
+  .cbox {
+    
+        text-align:center;
+      padding-top: 12px;   
+    background: #fff;
+ 
+  }
+
+  .texto {
+  	font-size: 11px;
+  	padding: 3px;
+    background: #fff;
+  }
+  
+  .imagen {
+  	padding: 2px;
+    background: #fff;
+   
+  }
+ 
+  
+#num1,#num2,#num3,#num12,#num15,#num16,#num24,#num27,#num47,#num48,#num56,#num58 { background: #85C1E9; } /*azul*/
+
+
+#num5,#num6,#num7,#num8,#num9,#num10,#num11,#num17,#num18,#num20,#num22,#num23,#num26 { background: #58D68D; }  /*verde*/
+  
+
+#num35,#num38,#num40,#num41,#num43,#num51,#num52,#num53, #num57,#num60,#num61 { background: #58D68D; }  /*verde*/
+ 
+/*#num1,#num3,#num13,#num30,#num38,#num42,#num45, #num46,#num47,#num48,#num58,#num63 { background: #FF0000; }  rojo*/  
