@@ -307,7 +307,7 @@ document.getElementById('txt48').innerHTML =	" <br />";
 											
 
 document.getElementById("img49").src= "im/v49.png";
-document.getElementById('txt49').innerHTML =	" <br />"+
+document.getElementById('txt49').innerHTML =	" <br />";
 									
 											
 											
