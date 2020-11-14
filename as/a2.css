@@ -37,7 +37,7 @@ with:auto;
 	margin: auto;
   	background: gray;
   	padding: 2px;
-	with:100%;
+	/*with:100%;*/
 
 }  
   
@@ -62,7 +62,7 @@ with:auto;
 }
   
 .contenedor {
-	width: 100%;
+	/*width: 100%;*/
 	/*max-width: 1000px;*/
 	border:2px solid grey;
 	margin: auto;
