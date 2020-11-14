@@ -108,20 +108,20 @@ for (var j = 1; j <= 63; j++) {
 }
 
 document.getElementById("img1").src= "im/v1.png"; 
-document.getElementById("txt1").innerHTML = "➡✅Como Hacer un Cautin Casero con Transformador‼️😮✅<br>"+
+document.getElementById("txt1").innerHTML = "";
   
 
   
 document.getElementById("img2").src= "im/v2.png"; 
-document.getElementById("txt2").innerHTML =  "✅💥Como amplificar la señal de tu celular con simple truco‼️😮<br>"+
+document.getElementById("txt2").innerHTML =  "";
 
   
 document.getElementById("img3").src= "im/v3.png";
-document.getElementById('txt3').innerHTML ="💥Haz tu propio cautin casero, te puede salvar de un apuro‼️😮💥<br>"+
+document.getElementById('txt3').innerHTML ="";
 
   
 document.getElementById("img4").src= "im/v4.png"; 
-document.getElementById('txt4').innerHTML ="✅💥Como evitar que las lamparas parpadeen, aquí te explico!💥💡😮 <br>"+
+document.getElementById('txt4').innerHTML ="<br>";
  
   
   
