@@ -40,6 +40,10 @@ with:auto;
 	/*with:100%;*/
 
 }  
+
+.titulo_grupo div {
+	border:1px solid grey;
+}
   
   .nombregrupo {
   background: white;
