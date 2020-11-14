@@ -189,32 +189,32 @@ document.getElementById('txt20').innerHTML = "Como lograr que un foco LED nunca 
 												"https://youtu.be/tZ7oN47uC3o";
   
 document.getElementById("img21").src= "im/v21.png";
-document.getElementById('txt21').innerHTML =  "<br />"+
-												"";
+document.getElementById('txt21').innerHTML =  "Aprende a fabricar un foco LED con fuente capacitiva!<br />"+
+												"https://youtu.be/efRFB7zCzd0";
   
 document.getElementById("img22").src= "im/v22.png";
-document.getElementById('txt22').innerHTML = "<br />"+
-												"";
+document.getElementById('txt22').innerHTML = "Como Hacer un Cargador de Celular Casero Muy Fácil!<br />"+
+												"https://youtu.be/Px47QXRwpms";
   
 document.getElementById("img23").src= "im/v23.png";
-document.getElementById('txt23').innerHTML =" <br/>"+
-												"";
+document.getElementById('txt23').innerHTML ="Como evitar el parpadeo de las lamparas Fácil solución! <br/>"+
+												"https://youtu.be/lR893qNCk8Q";
 											
 document.getElementById("img24").src= "im/v24.png";
-document.getElementById('txt24').innerHTML = "<br />"+
-												"";
+document.getElementById('txt24').innerHTML = "Como aumentar la señal de cualquier teléfono celular con simple truco!<br />"+
+												"https://youtu.be/vXdWtDFA_cM";
 
 document.getElementById("img25").src= "im/v25.png";
-document.getElementById('txt25').innerHTML =	" <br />"+
-												"";
+document.getElementById('txt25').innerHTML =	"Aprende a reparar lamparas ahorradoras con simple truco! <br />"+
+												"https://youtu.be/df6XZ11NQUM";
 											
 document.getElementById("img26").src= "im/v26.png";
-document.getElementById('txt26').innerHTML = " <br />"+
-												"";
+document.getElementById('txt26').innerHTML = "Repara tus artefactos electricos con simple truco <br />"+
+												"https://youtu.be/qp5FqIhDjjc";
 											
 document.getElementById("img27").src= "im/v27.png";
-document.getElementById('txt27').innerHTML =" <br />"+
-												"";
+document.getElementById('txt27').innerHTML ="Truco para ahorrar hasta 50% en la factura electrica! <br />"+
+												"https://youtu.be/dKbOT3cLsRo";
 											
 document.getElementById("img28").src= "im/v28.png";
 document.getElementById('txt28').innerHTML =" <br />"+
