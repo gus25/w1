@@ -4,10 +4,32 @@ with:100%;
 
 }
 
+@media (min-width: 320px) { 
+	.titulo_grupo {
+	
+	display: grid;
+	grid-template-columns: 160px auto;	
+		
+		
+	}
+
+}
+
+@media (min-width: 480px) { 
+	.titulo_grupo {
+	
+	display: grid;
+	grid-template-columns: 240px auto;	
+		
+		
+	}
+
+}
+
+
 .titulo_grupo {
   
-	display: grid;
-	grid-template-columns: 150px auto;
+
 	grid-template-rows: 100px;
 	grid-gap:3px;
   	
