@@ -107,54 +107,54 @@ for (var j = 1; j <= 63; j++) {
   
 }
 
-document.getElementById("img1").src= "https://1.bp.blogspot.com/-yd5sgLiRfT4/X2J51dHg2sI/AAAAAAAAAIY/d6rviV1G19EWlZsHROa3wWzk0TBaFQD-gCLcBGAsYHQ/s200/1.png"; 
+document.getElementById("img1").src= "im/v1.png"; 
 document.getElementById("txt1").innerHTML = "➡✅Como Hacer un Cautin Casero con Transformador‼️😮✅<br>"+
 												"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇<br>"+
 												"https://youtu.be/KyNjEaHtb0c";   
 
   
-document.getElementById("img2").src= "https://1.bp.blogspot.com/-PGIrPploZh4/X2J8Lb6Nx4I/AAAAAAAAAJM/vxBnWd-MdvMXS8eiAp7dxzAUTMhjCaQhACLcBGAsYHQ/s200/2.png"; 
+document.getElementById("img2").src= "im/v1.png"; 
 document.getElementById("txt2").innerHTML =  "✅💥Como amplificar la señal de tu celular con simple truco‼️😮<br>"+
 												"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇<br>"+
 												"https://youtu.be/vXdWtDFA_cM";
 
   
-document.getElementById("img3").src= "https://1.bp.blogspot.com/-FzhWoPJNv_k/X2J8QVjjqXI/AAAAAAAAAJ4/2mvpLLpvXPkAAHRyBFXPpkzvXrlIuuLfACLcBGAsYHQ/s265/3.png";
+document.getElementById("img3").src= "im/v1.png";
 document.getElementById('txt3').innerHTML ="💥Haz tu propio cautin casero, te puede salvar de un apuro‼️😮💥<br>"+
 												"⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ <br>"+
 												"https://youtu.be/KAjPSyUslL0";   
  
   
-document.getElementById("img4").src= "https://1.bp.blogspot.com/-QJbJgPt7bgc/X2J8UFqIrbI/AAAAAAAAAKk/bqgo8TSqc94SZBUqUVRVx4NIptBY-lfRwCLcBGAsYHQ/s261/4.png"; 
+document.getElementById("img4").src= "im/v1.png"; 
 document.getElementById('txt4').innerHTML ="✅💥Como evitar que las lamparas parpadeen, aquí te explico!💥💡😮 <br>"+
 												"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇 <br>"+
 												"https://youtu.be/WWXZUvsZ21M";   
   
   
-document.getElementById("img5").src= "https://1.bp.blogspot.com/-mqAlfCBngfA/X2J8YsS1zFI/AAAAAAAAALQ/bpd1f45ZF4siS7tCuPVD-blG5ocZs2wegCLcBGAsYHQ/s268/5.png"; 
+document.getElementById("img5").src= "im/v1.png"; 
 document.getElementById('txt5').innerHTML ="🔌💥Como hacer un Cargador de Batería con transformador‼️💥✅<br>"+
 												"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇<br>"+
 												"https://youtu.be/RuRDiat6jTw";   
 
-document.getElementById("img6").src= "https://1.bp.blogspot.com/-VIpcjGRHHB0/X2J8d-iFQaI/AAAAAAAAAL8/kd7_olIe3O0IB04h4mKcP9xR4XJIxYEqQCLcBGAsYHQ/s268/6.png";
+document.getElementById("img6").src= "im/v1.png";
 document.getElementById('txt6').innerHTML = "✅Como lograr que un foco LED dure 50 años!‼️💥😮<br />"+
 											"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇<br />"+
 											"https://www.facebook.com/watch/?v=517897095640295"; 
   
   
-document.getElementById("img7").src= "https://1.bp.blogspot.com/-Fd6kZROAaH8/X2J8hU7patI/AAAAAAAAAMQ/x9P52ZLKNoc74VHuxd7Ni3WzrcsLEHxPQCLcBGAsYHQ/s268/7.png";
+document.getElementById("img7").src= "im/v1.png";
 document.getElementById('txt7').innerHTML = "✅💥10 cosas que puedes hacer con teléfonos celulares viejos‼️💥😮<br />"+
 											"⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️<br />"+
 											"https://www.facebook.com/watch/?v=2423827951037059";
   
   
-document.getElementById("img8").src= "https://1.bp.blogspot.com/-C10QWSTAnJE/X2J8hhe_FvI/AAAAAAAAAMU/dhaoPdzFK8AhYhPUDK7msFsVNmha0aQLACLcBGAsYHQ/s268/8.png";
+document.getElementById("img8").src= "im/v1.png";
 document.getElementById('txt8').innerHTML = "✅💥Como hacer un Inversor de voltaje de 12v a 120v muy fácil‼️💥<br />"+
 											"⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️<br />"+
 											"https://youtu.be/D8nhm7_y6PY";  
   
   
-document.getElementById("img9").src= "https://1.bp.blogspot.com/-KgYqCt6yods/X2J8hkGQsKI/AAAAAAAAAMY/GgduU-aAHbQWOtdiROHmZuaXA5-xRcHLgCLcBGAsYHQ/s268/9.png";
+document.getElementById("img9").src= "im/v1.png";
 document.getElementById('txt9').innerHTML = "✅💥Como Cargar la Batería de tu auto con un foco!‼️💥<br />"+
 											"👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇<br />"+
 											"https://www.facebook.com/watch/?v=1186645654869885"; 
