@@ -7,7 +7,7 @@ background: gray;
 .titulo_grupo {
   
 	display: grid;
-	grid-template-columns: 250px 265px;
+	grid-template-columns: 250px auto;
 	grid-template-rows: 100px;
 	grid-gap:3px;
   	
