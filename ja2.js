@@ -296,8 +296,8 @@ document.getElementById('txt46').innerHTML =	"Como hacer una antena wifi de larg
 											
 											
 document.getElementById("img47").src= "im/v47.png";
-document.getElementById('txt47').innerHTML = 	" <br />"+
-												"";
+document.getElementById('txt47').innerHTML = 	"Como hacer un detector de metales muy simple! <br />"+
+												"https://www.facebook.com/watch/?v=3393078800809275";
 
 
 document.getElementById("img48").src= "im/v48.png";
