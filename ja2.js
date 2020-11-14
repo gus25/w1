@@ -274,7 +274,7 @@ document.getElementById('txt40').innerHTML =	"<br />"+
 
 document.getElementById("img41").src= "im/v41.png";
 document.getElementById('txt41').innerHTML =	" <br />"+
-											
+						"";											
 											
 document.getElementById("img42").src= "im/v42.png";
 document.getElementById('txt42').innerHTML = 	" <br />"+
