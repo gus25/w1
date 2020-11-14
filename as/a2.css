@@ -1,6 +1,6 @@
 body {
 background: gray;
-with:100%;
+with:auto;
 
 }
 
@@ -62,7 +62,7 @@ with:100%;
 }
   
 .contenedor {
-	width: 100%;
+	width: auto;
 	/*max-width: 1000px;*/
 	border:2px solid grey;
 	margin: auto;
