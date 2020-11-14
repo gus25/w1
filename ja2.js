@@ -4,7 +4,7 @@
 let div1 = document.getElementById('contenedor1');
 
  
-for (var k = 1 ; k <= 63; k++) {
+for (var k = 1 ; k <= 55; k++) {
 
 	div1.innerHTML += 
     '<div class="numero" id="num'+k+'">'+k+'</div>'+
@@ -110,86 +110,83 @@ for (var j = 1; j <= 55; j++) {
 document.getElementById("img1").src= "im/v1.png"; 
 document.getElementById("txt1").innerHTML = "Como Hacer Cargador de Bateria con un Transformador! <br>"+
 											"https://youtu.be/RuRDiat6jTw";
-
-  
-
-  
+   
 document.getElementById("img2").src= "im/v2.png"; 
-document.getElementById("txt2").innerHTML = "  <br>"+
-											"";
+document.getElementById("txt2").innerHTML = "Como Cargar tu Celular con la Batería de tu Auto! <br>"+
+											"https://youtu.be/TEtKZ6QsaiU";
   
 document.getElementById("img3").src= "im/v3.png";
-document.getElementById('txt3').innerHTML =""+
-											"";
+document.getElementById('txt3').innerHTML ="Como hacer cautin un casero con un transformador! <br>"+
+											"https://youtu.be/KyNjEaHtb0c";
   
 document.getElementById("img4").src= "im/v4.png"; 
-document.getElementById('txt4').innerHTML ="<br>"+
-											""; 
+document.getElementById('txt4').innerHTML ="Como Hacer una Linterna LED casera Super Potente en 5 minutos! <br>"+
+											"https://youtu.be/ahuhLR84-JY"; 
   
   
 document.getElementById("img5").src= "im/v5.png"; 
-document.getElementById('txt5').innerHTML ="<br>"+
-											"";  
+document.getElementById('txt5').innerHTML ="Como hacer un control de temperatura para cautin con transformador!<br>"+
+											"https://youtu.be/wTaSgQr7Bas";  
 
 document.getElementById("img6").src= "im/v6.png";
-document.getElementById('txt6').innerHTML = "<br />"+
-											"";
+document.getElementById('txt6').innerHTML = "Como hacer un mini compresor de aire super potente!!<br />"+
+											"https://youtu.be/yrgfCPm2Igo";
   
 document.getElementById("img7").src= "im/v7.png";
-document.getElementById('txt7').innerHTML = "<br />"+
-											"";
+document.getElementById('txt7').innerHTML = "Como hacer un aspirador casero super potente!<br />"+
+											"https://youtu.be/HdXVuncV6UE ";
   
 document.getElementById("img8").src= "im/v8.png";
-document.getElementById('txt8').innerHTML = "<br />"+
-											"";
+document.getElementById('txt8').innerHTML = "Como cargar la bateria de tu auto con dos funetes de PC!<br />"+
+											"https://youtu.be/dcVF3cvD7Ss";
   
 document.getElementById("img9").src= "im/v9.png";
-document.getElementById('txt9').innerHTML = "<br />"+
-											"";
+document.getElementById('txt9').innerHTML = "5 Inventos que puedes hacer con un foco!<br />"+
+											"https://youtu.be/o7ou85UB6YQ";
   
 document.getElementById("img10").src= "im/v10.png";
-document.getElementById('txt10').innerHTML = "<br />"+
-											"";
+document.getElementById('txt10').innerHTML = "Como Hacer Fuente de Voltaje Variable de 1.5v a 15v DC<br />"+
+											"https://youtu.be/OLZdhimB-MU";
   
 document.getElementById("img11").src= "im/v11.png";
-document.getElementById('txt11').innerHTML =  "<br />"+
-											"";
+document.getElementById('txt11').innerHTML =  "Como Hacer un Control de Iluminación Temperatura y Velocidad!<br />"+
+											"https://youtu.be/qvCW94dLe-g";
   
 document.getElementById("img12").src= "im/v12.png";
-document.getElementById('txt12').innerHTML = "<br />"+
-											"";
+document.getElementById('txt12').innerHTML = "Como comprobar capacitor dañado con ingenioso invento!<br />"+
+											"https://youtu.be/ZA7As6IWkHE";
   
 document.getElementById("img13").src= "im/v13.png";
-document.getElementById('txt13').innerHTML = "<br />"+
-												"";
+document.getElementById('txt13').innerHTML = "Tutorial de Electrónica #1 Resistencia Electrica<br />"+
+												"https://youtu.be/vIKie68laWE";
   
 document.getElementById("img14").src= "im/v14.png";
-document.getElementById('txt14').innerHTML =  "<br />"+
-												"";
+document.getElementById('txt14').innerHTML =  "Tutorial de Electrónica #2 Resistencias de montaje superficial<br />"+
+												"https://youtu.be/MF5O-xnPwqc";
   
 document.getElementById("img15").src= "im/v15.png";
-document.getElementById('txt15').innerHTML ="<br/>"+
-												"";
+document.getElementById('txt15').innerHTML ="Como hacer una lampara serie para prueba de corto circuito!<br/>"+
+												"https://youtu.be/Dhk_AHE8eNY";
   
 document.getElementById("img16").src= "im/v16.png";
-document.getElementById('txt16').innerHTML = "<br />"+
-												"";
+document.getElementById('txt16').innerHTML = "Reparación bombilla LED no enciende, aquí te explico que hacer!<br />"+
+												"https://youtu.be/l7AjlO8P34g";
   
 document.getElementById("img17").src= "im/v17.png";
-document.getElementById('txt17').innerHTML = "<br />"+
-												"";
+document.getElementById('txt17').innerHTML = "Aprende a reparar cargadores de celular con este video!<br />"+
+												"https://youtu.be/qOtZLY2SZgs";
   
 document.getElementById("img18").src= "im/v18.png";
-document.getElementById('txt18').innerHTML = "<br />"+
-												"";
+document.getElementById('txt18').innerHTML = "Aprende a reparar focos ahorradores con este tutorial!<br />"+
+												"https://youtu.be/zXa3ASK-I4g";
   
 document.getElementById("img19").src= "im/v19.png";
-document.getElementById('txt19').innerHTML = "<br />"+
-												"";
+document.getElementById('txt19').innerHTML = "Comprueba componentes electronicos con este genial invento!<br />"+
+												"https://youtu.be/hrEG_CLXKbQ";
   
 document.getElementById("img20").src= "im/v20.png";
-document.getElementById('txt20').innerHTML = "<br />"+
-												"";
+document.getElementById('txt20').innerHTML = "Como lograr que un foco LED nunca se dañe con simple truco!<br />"+
+												"https://youtu.be/tZ7oN47uC3o";
   
 document.getElementById("img21").src= "im/v21.png";
 document.getElementById('txt21').innerHTML =  "<br />"+
