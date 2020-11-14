@@ -33,7 +33,7 @@ with:auto;
 	/*grid-template-rows: 100px;*/
 	grid-gap:3px;
   	
-  	border:2px solid grey;
+  	border:1px solid grey;
 	margin: auto;
   	background: gray;
   	padding: 2px;
@@ -69,7 +69,7 @@ with:auto;
 	/*font-size: 12px;*/
 	/*line-height: 50px;*/
 	text-align: justify;
-  background: gray;
+  /*background: gray;*/
 }
 
 .contenedor > div {
