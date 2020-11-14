@@ -257,8 +257,8 @@ document.getElementById('txt37').innerHTML =	"7 errores en instalaciones eléctr
 												"https://youtu.be/Lr09BWA6ZaA";
 											
 document.getElementById("img38").src= "im/v38.png";
-document.getElementById('txt38').innerHTML = 	"<br />"+
-												"";
+document.getElementById('txt38').innerHTML = 	"Como cargar la BATERÍA DE TU AUTO | con sencillo invento! <br />"+
+												"https://youtu.be/bWwWLM_GIJA ";
 	
 											
 document.getElementById("img39").src= "im/v39.png";
@@ -336,8 +336,8 @@ document.getElementById('txt54').innerHTML =	"Aprende a identificar los cables e
 											
 											
 document.getElementById("img55").src= "im/v55.png";
-document.getElementById('txt55').innerHTML = 	" <br />"+
-												"";
+document.getElementById('txt55').innerHTML = 	"Aprende a reparar focos ahorradores con este video tutorial! <br />"+
+												"https://youtu.be/jbDmqIyh5es";
 
 
 									
