@@ -1,6 +1,6 @@
 body {
 background: gray;
-with:100%;
+/*with:100%;*/
 
 }
 
@@ -8,7 +8,7 @@ with:100%;
 	.titulo_grupo {
 	
 	display: grid;
-	grid-template-columns: 160px auto;	
+	grid-template-columns: 160px 100%;	
 		
 		
 	}
@@ -19,7 +19,7 @@ with:100%;
 	.titulo_grupo {
 	
 	display: grid;
-	grid-template-columns: 240px auto;	
+	grid-template-columns: 240px 100%;	
 		
 		
 	}
@@ -62,7 +62,7 @@ with:100%;
 }
   
 .contenedor {
-	/*width: 100%;*/
+	width: 100%;
 	/*max-width: 1000px;*/
 	border:2px solid grey;
 	margin: auto;
