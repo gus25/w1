@@ -113,7 +113,56 @@ with:auto;
    
   }
  
-  
+/*ccs para el menu*/	
+
+	
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+	font-family: sans-serif;
+	margin-top:20px;
+
+      }
+            
+nav li{
+      display:inline-block;
+      width:120px;
+      height:30px;
+      padding:0px 15px;
+      background-color:#2175bc;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+	
+	
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+	
+}
+
+nav ul{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;	
+
+}  
+
 #num1,#num2,#num3,#num12,#num15,#num16,#num24,#num27,#num47,#num48,#num56,#num58 { background: #85C1E9; } /*azul*/
 
 
