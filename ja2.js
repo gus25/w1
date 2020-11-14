@@ -292,7 +292,7 @@ document.getElementById('txt45').innerHTML =	" <br />";
 											
 											
 document.getElementById("img46").src= "im/v46.png";
-document.getElementById('txt46').innerHTML =	" <br />"+
+document.getElementById('txt46').innerHTML =	" <br />";
 									
 											
 											
