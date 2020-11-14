@@ -217,44 +217,44 @@ document.getElementById('txt27').innerHTML ="Truco para ahorrar hasta 50% en la 
 												"https://youtu.be/dKbOT3cLsRo";
 											
 document.getElementById("img28").src= "im/v28.png";
-document.getElementById('txt28').innerHTML =" <br />"+
-												"";
+document.getElementById('txt28').innerHTML ="Como Hacer un Control de temperatura para Cautin! <br />"+
+												"https://youtu.be/q_h6VSfrrTQ";
 											
 document.getElementById("img29").src= "im/v29.png" ;
-document.getElementById('txt29').innerHTML =" <br />"+
-												"";
+document.getElementById('txt29').innerHTML ="Haz tu propio cautin casero, te puede salvar de un apuro! <br />"+
+												"https://youtu.be/KAjPSyUslL0";
 											
 document.getElementById("img30").src= "im/v30.png";
-document.getElementById('txt30').innerHTML =" <br />"+
-												"";
+document.getElementById('txt30').innerHTML ="Como Hacer un Inversor de Voltaje de 12v dc a 120v ac! <br />"+
+												"https://youtu.be/D8nhm7_y6PY";
 											
 document.getElementById("img31").src= "im/v31.png";
-document.getElementById('txt31').innerHTML ="<br />"+
-												"";
+document.getElementById('txt31').innerHTML ="Como Hacer un Panel Solar Casero con materiales reciclados!<br />"+
+												"https://youtu.be/lH-FLc8yI4Y";
 
 document.getElementById("img32").src= "im/v32.png";
-document.getElementById('txt32').innerHTML = 	"<br />"+
-												"";
+document.getElementById('txt32').innerHTML = 	"Como hacer un Encendedor Eléctrico para la cocina!<br />"+
+												"https://youtu.be/Fv1Y-yiEw2Q";
 
 document.getElementById("img33").src= "im/v33.png";
-document.getElementById('txt33').innerHTML = 	"<br />"+
-												"";
+document.getElementById('txt33').innerHTML = 	"Como eliminar el parpadeo de las lamparas de forma definitiva!<br />"+
+												"https://youtu.be/WWXZUvsZ21M";
 											
 document.getElementById("img34").src= "im/v34.png";
-document.getElementById('txt34').innerHTML =	"<br />"+
-												"";
+document.getElementById('txt34').innerHTML =	"Cómo detectar cualquier cable roto con este ingenioso invento!<br />"+
+												"https://youtu.be/VoZHfZdVqxE";
 											
 document.getElementById("img35").src= "im/v35.png";
-document.getElementById('txt35').innerHTML = 	"<br />"+
-												"";
+document.getElementById('txt35').innerHTML = 	"Como Hacer un Inversor de Voltaje de 12v a 120v con transistor<br />"+
+												"https://www.facebook.com/watch/?v=797432097762641";
 											
 document.getElementById("img36").src= "im/v36.png";
-document.getElementById('txt36').innerHTML =	"<br />"+
-												"";
+document.getElementById('txt36').innerHTML =	"Como convertir un foco LED de 120v a 12v con simple truco!<br />"+
+												"https://youtu.be/eAwwOXcNlBk";
 											
 document.getElementById("img37").src= "im/v37.png";
-document.getElementById('txt37').innerHTML =	" <br />"+
-												"";
+document.getElementById('txt37').innerHTML =	"7 errores en instalaciones eléctricas caseras que debes evitar! <br />"+
+												"https://youtu.be/Lr09BWA6ZaA";
 											
 document.getElementById("img38").src= "im/v38.png";
 document.getElementById('txt38').innerHTML = 	"<br />"+
