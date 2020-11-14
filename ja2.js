@@ -49,7 +49,7 @@ var hoy = new Date();
 var dia = hoy.getDate();
 var mes = hoy.getMonth() + 1;  
   
-for (var j = 1; j <= 63; j++) {
+for (var j = 1; j <= 55; j++) {
   
 	var checked = JSON.parse(localStorage.getItem("checkbox"+n+"#"+j));
     if (checked == true)
@@ -161,7 +161,7 @@ document.getElementById("img13").src= "im/v13.png";
 document.getElementById('txt13').innerHTML = "<br />";
 
   
-document.getElementById("img14").src= "im/v/v14.png";
+document.getElementById("img14").src= "im/v14.png";
 document.getElementById('txt14').innerHTML =  "<br />";
 
   
