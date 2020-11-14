@@ -7,7 +7,7 @@ with:100%;
 .titulo_grupo {
   
 	display: grid;
-	grid-template-columns: 250px auto;
+	grid-template-columns: auto auto;
 	grid-template-rows: 100px;
 	grid-gap:3px;
   	
@@ -15,6 +15,7 @@ with:100%;
 	margin: auto;
   	background: gray;
   	padding: 2px;
+	with:100%;
 
 }  
   
@@ -39,7 +40,7 @@ with:100%;
 }
   
 .contenedor {
-	width: 100%;
+	/*width: 100%;*/
 	/*max-width: 1000px;*/
 	border:2px solid grey;
 	margin: auto;
