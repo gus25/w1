@@ -1,5 +1,6 @@
 let divmenu = document.getElementById('menu');
 
+divmenu.innerHTML ='';
 divmenu.innerHTML += '<nav><ul>'+
 '<li><a href="https://gus25.github.io/w1/">Inicio</a>'+
  '<li><a href="#">grupos</a><ul>';
