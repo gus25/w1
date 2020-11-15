@@ -137,7 +137,7 @@ document.getElementById("a27").text= "(g27) EXPERIMENTOS ELECTRONICOS-TRABAJOS T
   
 document.getElementById("img28").src= "img/28.png";
 document.getElementById("a28").href="https://gus25.github.io/w1/g28.html";
-document.getElementById("a28").text= "(g28) tecnicos electronicos";  
+document.getElementById("a28").text= "(g28) Tecnicos y estudiantes de electricidad,electronica y programacion.";  
   
 document.getElementById("img29").src= "img/29.png";
 document.getElementById("a29").href="https://gus25.github.io/w1/g29.html";
