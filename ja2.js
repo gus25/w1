@@ -317,7 +317,7 @@ document.getElementById('txt50').innerHTML = 	"Como encender y apagar un foco de
 											
 											
 document.getElementById("img51").src= "im/v51.png";
-document.getElementById('txt51').innerHTML =	"Como hacer un amplificador wifi para conectar con redes distantes‼️ <br />";
+document.getElementById('txt51').innerHTML =	"Como hacer un amplificador wifi para conectar con redes distantes‼️ <br />"+
 												"https://youtu.be/H2kFEReckyQ";										
 											
 											
