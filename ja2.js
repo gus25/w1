@@ -342,5 +342,15 @@ document.getElementById('txt55').innerHTML = 	"Aprende a reparar focos ahorrador
 
 
 									
-											
+function copy(i) {	
+	
+var ACopiar = document.getElementById('txt'+i);
+var seleccion = document.createRange();
+seleccion.selectNodeContents(ACopiar);
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(seleccion);
+var res = document.execCommand('copy');
+window.getSelection().removeRange(seleccion);	
+alert("Texto copiado");
+}											
 
