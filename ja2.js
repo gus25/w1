@@ -9,7 +9,7 @@ for (var k = 1 ; k <= 55; k++) {
 
 	div1.innerHTML += 
     '<div class="numero" id="num'+k+'">'+k+'</div>'+
-    '<div class="imagen"><img id="img'+k+'" alt="" width="100%" ></div>'+
+    '<div class="imagen"><img id="img'+k+'" alt="" width="100%" onClick="copy('+k+')></div>'+
     '<div class="texto" id="txt'+k+'" ></div>'+
     '<div class="cbox"><input class="unpresed" id="checkbox'+n+'#'+k+'" type="checkbox" onClick="clickboton('+k+')"></div>';
 
