@@ -74,7 +74,7 @@ for (var j = 1; j <= 55; j++) {
         var diachecked = localStorage.getItem('diachecked'+n+'#'+j);
         var meschecked = localStorage.getItem('meschecked'+n+'#'+j);
           
-          
+        /*  
     	if (meschecked == mes)
         {
          	if ( (dia - diachecked) > 10)
@@ -95,6 +95,8 @@ for (var j = 1; j <= 55; j++) {
             
         }
       	else if (Math.abs(meschecked-mes)>1)
+	*/
+	if (Math.abs(meschecked-mes)>1)	
         {
         	localStorage.setItem("checkbox"+n+"#"+j,false);	
         
