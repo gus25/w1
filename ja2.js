@@ -96,12 +96,13 @@ for (var j = 1; j <= 55; j++) {
         }
       	else if (Math.abs(meschecked-mes)>1)
 	*/
+	/*    
 	if (Math.abs(meschecked-mes)>1)	
         {
         	localStorage.setItem("checkbox"+n+"#"+j,false);	
         
         }  
-      
+      */
       
     		//console.log("dia"+j+"="+localStorage.getItem('diachecked'+n+'#'+j) );
       		//console.log("mes"+j+"="+localStorage.getItem('meschecked'+n+'#'+j) );
