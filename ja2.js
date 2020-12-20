@@ -250,7 +250,7 @@ document.getElementById('txt34').innerHTML =	"Cómo detectar cualquier cable rot
 											
 document.getElementById("img35").src= "im/v35.png";
 document.getElementById('txt35').innerHTML = 	"Como Hacer un Inversor de Voltaje de 12v a 120v con transistor<br />"+
-												"https://www.facebook.com/watch/?v=797432097762641";
+												"https://youtu.be/B6RRAsBsNfA";
 											
 document.getElementById("img36").src= "im/v36.png";
 document.getElementById('txt36').innerHTML =	"Como convertir un foco LED de 120v a 12v con simple truco!<br />"+
@@ -283,40 +283,40 @@ document.getElementById('txt42').innerHTML = 	"Tutorial de electrónica Inductor
 											
 document.getElementById("img43").src= "im/v43.png";
 document.getElementById('txt43').innerHTML =	"Como modificar el voltaje de salida de tu cargador de celular! <br />"+
-												"https://www.facebook.com/watch/?v=351365775971322";											
+												"https://youtu.be/UGS3tjaMkUc";											
 											
 document.getElementById("img44").src= "im/v44.png";
 document.getElementById('txt44').innerHTML =	"Como lograr que un foco LED dure 50 años <br />"+
-												"https://www.facebook.com/watch/?v=517897095640295";											
+												"https://youtu.be/9WrYiP8AvEc";											
 											
 document.getElementById("img45").src= "im/v45.png";
 document.getElementById('txt45').innerHTML =	"Como hallar la fase y el neutro en un toma corriente <br />"+
-												"https://www.facebook.com/watch/?v=776840472798029";									
+												"https://youtu.be/EE0paCB0GCI";									
 											
 											
 document.getElementById("img46").src= "im/v46.png";
 document.getElementById('txt46').innerHTML =	"Como hacer una antena wifi de largo alcance fácil en 5 min <br />"+
-												"https://www.facebook.com/watch/?v=474599099894621";									
+												"https://youtu.be/sXA460nTMbQ";									
 											
 											
 document.getElementById("img47").src= "im/v47.png";
 document.getElementById('txt47').innerHTML = 	"Como hacer un detector de metales muy simple! <br />"+
-												"https://www.facebook.com/watch/?v=3393078800809275";
+												"https://youtu.be/5LAdKx6k-hE";
 
 
 document.getElementById("img48").src= "im/v48.png";
 document.getElementById('txt48').innerHTML =	"Como hacer empalmes eléctricos de la forma correcta <br />"+
-												"https://www.facebook.com/watch/?v=190339965688671";										
+												"https://youtu.be/PNxH9dE9f98";										
 											
 
 document.getElementById("img49").src= "im/v49.png";
 document.getElementById('txt49').innerHTML =	"Como hacer un amplificador de audio super potente! <br />"+
-												"https://www.facebook.com/watch/?v=795283341294669";									
+												"https://youtu.be/fmokH7SOuhQ";									
 											
 											
 document.getElementById("img50").src= "im/v50.png";
 document.getElementById('txt50').innerHTML = 	"Como encender y apagar un foco desde tres lugares diferentes! <br />"+
-												"https://www.facebook.com/watch/?v=364493738129511";										
+												"https://youtu.be/b5vugs1xYiQ";										
 											
 											
 document.getElementById("img51").src= "im/v51.png";
@@ -336,7 +336,7 @@ document.getElementById('txt53').innerHTML =	"Como hacer una antena wifi super p
 											
 document.getElementById("img54").src= "im/v54.png";
 document.getElementById('txt54').innerHTML =	"Aprende a identificar los cables en cualquier transformador! <br />"+
-												"https://www.facebook.com/watch/?v=2811299322435589";									
+												"https://youtu.be/jPK6XDBZQec";									
 											
 											
 document.getElementById("img55").src= "im/v55.png";
