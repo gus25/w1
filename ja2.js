@@ -266,19 +266,19 @@ document.getElementById('txt38').innerHTML = 	"Como cargar la BATERÍA DE TU AUT
 	
 											
 document.getElementById("img39").src= "im/v39.png";
-document.getElementById('txt39').innerHTML = 	"Tutorial Electrónica básica TRANSISTORES<br />"+
+document.getElementById('txt39').innerHTML = 	"Tutorial Electrónica básica sobre TRANSISTORES Di Gracias y ten aqui el video<br />"+
 												"https://youtu.be/lN0AfX0XI8s";
 
 document.getElementById("img40").src= "im/v40.png";
-document.getElementById('txt40').innerHTML =	"Tutorial básico sobre resistencias y capacitores<br />"+
+document.getElementById('txt40').innerHTML =	"Tutorial básico sobre resistencias y capacitores Di Gracias y ten aqui el video<br />"+
 												"https://youtu.be/vJnGSqnFgvw";											
 
 document.getElementById("img41").src= "im/v41.png";
-document.getElementById('txt41').innerHTML =	"Tutorial electrónica básica REGULADORES <br />"+
+document.getElementById('txt41').innerHTML =	"Tutorial electrónica básica REGULADORES Di Gracias y ten aqui el video<br />"+
 												"https://youtu.be/lN0AfX0XI8s";											
 											
 document.getElementById("img42").src= "im/v42.png";
-document.getElementById('txt42').innerHTML = 	"Tutorial de electrónica Inductores y diodos <br />"+
+document.getElementById('txt42').innerHTML = 	"Tutorial de electrónica Inductores y diodos Di Gracias y ten aqui el video<br />"+
 												"https://youtu.be/vJnGSqnFgvw";											
 											
 document.getElementById("img43").src= "im/v43.png";
