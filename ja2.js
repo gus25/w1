@@ -259,7 +259,7 @@ document.getElementById('txt29').innerHTML ="Haz tu propio cautin casero, te pue
 											
 document.getElementById("img30").src= "im/v30.png";
 document.getElementById('txt30').innerHTML ="Como Hacer un Inversor de Voltaje de 12v dc a 120v ac! <br />"+
-	"Di gracias y aqui te dejo la solución<br>"+
+	"Di Ok si estas activo y mira el video antes de opinar<br>"+
 												"https://youtu.be/D8nhm7_y6PY";
 											
 document.getElementById("img31").src= "im/v31.png";
@@ -284,7 +284,7 @@ document.getElementById('txt34').innerHTML =	"Cómo detectar cualquier cable rot
 											
 document.getElementById("img35").src= "im/v35.png";
 document.getElementById('txt35').innerHTML = 	"Como Hacer un Inversor de Voltaje de 12v a 120v con transistor<br />"+
-	"Di gracias y aqui te dejo la solución<br>"+
+	"Di OK si te gusta la electronica y mira el video antes de opinar!<br>"+
 												"https://youtu.be/B6RRAsBsNfA";
 											
 document.getElementById("img36").src= "im/v36.png";
