@@ -395,6 +395,12 @@ document.getElementById('txt55').innerHTML = 	"Aprende a reparar focos ahorrador
 												"https://youtu.be/jbDmqIyh5es";
 
 
+
+document.getElementById("img56").src= "im/v56.png";
+document.getElementById('txt56').innerHTML = 	"7 Trucos eléctricos de la vida cotidiana! LIFE HACKS!! <br />"+
+	"Di gracias si te gustan los inventos!<br>"+
+												"https://youtu.be/LNheR5T6pr4";
+
 									
 function copy(i) {	
 	
