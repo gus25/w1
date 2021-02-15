@@ -113,7 +113,7 @@ for (var j = 1; j <= 55; j++) {
 
 document.getElementById("img1").src= "im/v1.png"; 
 document.getElementById("txt1").innerHTML = "Como Hacer Cargador de Bateria con un Transformador! <br>"+
-									"Di gracias y aqui le dejo esta genial idea<br>"+
+									"Di ok para saber que estas activo y comenta luego de ver el video!<br>"+
 											"https://youtu.be/RuRDiat6jTw";
    
 document.getElementById("img2").src= "im/v2.png"; 
