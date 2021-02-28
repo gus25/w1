@@ -5,7 +5,7 @@
 let div1 = document.getElementById('contenedor1');
 
  
-for (var k = 1 ; k <= 56; k++) {
+for (var k = 1 ; k <= 57; k++) {
 
 	div1.innerHTML += 
     '<div class="numero" id="num'+k+'">'+k+'</div>'+
@@ -50,7 +50,7 @@ var hoy = new Date();
 var dia = hoy.getDate();
 var mes = hoy.getMonth() + 1;  
   
-for (var j = 1; j <= 56; j++) {
+for (var j = 1; j <= 57; j++) {
   
 	var checked = JSON.parse(localStorage.getItem("checkbox"+n+"#"+j));
     if (checked == true)
@@ -400,6 +400,11 @@ document.getElementById("img56").src= "im/v56.png";
 document.getElementById('txt56').innerHTML = 	"7 Trucos eléctricos de la vida cotidiana! LIFE HACKS!! <br />"+
 	"Di gracias si te gustan los inventos!<br>"+
 												"https://youtu.be/LNheR5T6pr4";
+
+document.getElementById("img57").src= "im/v57.png";
+document.getElementById('txt57').innerHTML = 	"Como hacer un cautin casero super potente! LIFE HACKS!! <br />"+
+	"Di gracias si te gustan los inventos!<br>"+
+												"https://youtu.be/nfSOs3Hus4w";
 
 									
 function copy(i) {	
